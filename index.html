@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Corrida dos Gnomos</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <header>
+        <h1>Corrida Dos Gnomos</h1>
+    </header>
+
+    <main>
+        <div id="btnDisplay">
+            <h2>Aposte no gnomo de sua escolha!!</h2>
+            <div>
+                <button id="betGnomo1"></button>
+                <button id="betGnomo2"></button>
+            </div>
+            <div>
+                <button id="betGnomo3"></button>
+                <button id="betGnomo4"></button>
+            </div>
+        </div>
+        <div id="betDisplay">
+            <select id="inputValor">
+                <option value="" selected disabled>Escolha um valor</option>
+                <option value="25">25$</option>
+                <option value="50">50$</option>
+                <option value="75">75$</option>
+                <option value="100">100$</option>
+            </select>
+            <button id="btnStart">Começar uma Corrida</button>
+        </div>
+        <h2 id="arbitro"></h2>
+        <div id="output">
+            <div id="gnomo1"></div>
+            <div id="gnomo2"></div>
+            <div id="gnomo3"></div>
+            <div id="gnomo4"></div>
+            <div id="resultado"></div>
+        </div>
+        <button id="proximo">Proximo --></button>
+        
+    </main>
+
+    <footer>
+        <div id="cash"></div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
